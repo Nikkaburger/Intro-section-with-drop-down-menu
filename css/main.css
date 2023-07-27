@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+    
+body {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 0px;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 30px 15px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 84px;
+    height: 27px;
+}
+
+nav ul{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+
+nav ul li {
+    padding: 0px 20px;
+    text-transform: capitalize;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+}
+
+.arrow {
+    padding-left: 2px;
+}
+
+.register {
+    width: 8%;
+    flex-direction: row;
+    display: flex;
+}
+
+.login-text {
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-right: 40px;
+}
+
+.button {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 41%);
+    border-width: 2px;
+    border-color: hsl(0, 0%, 41%);
+    border-style: solid;
+    padding: 0px 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 1% 8%;
+}
+
+.main-text {
+    width: 50%;
+    height: auto;
+    padding: 35px 50px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    font-size: 4em;
+    font-weight: 700;
+    color: hsl(0, 0%, 8%);
+    font-family: 'Epilogue', sans-serif;
+}
+
+.break {
+    flex-direction: row;
+    display: flex;
+}
+
+.text {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+    line-height: 1.5;
+}
+
+.hero-image {
+    width: 40%;
+    height: auto;
+}
+
+.hero-desktop {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.hero-mobile {
+    display: none;
+}
+
+.learn-more {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    padding: 10px 20px;
+    margin-bottom: 80px;
+}
+
+.client-logos {
+    width: 100%;
+    height: auto;
+    margin-left: -40px
+}
+
+.client-logos ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.client-logos ul li {
+    padding-right: 30px; 
+}
+}
+@media screen and (max-width: 375px) {
+
+    html, body {
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        overflow-x: hidden;
+    }
+    
+    .container{
+        margin: 0px;
+        width: 100%;
+    }
+    
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 30px 15px;
+    }
+    
+    .logo {
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 20px;
+        width: 84px;
+        height: 27px;
+    }
+    
+    nav ul{
+        width: 30%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0px 10px;
+    }
+    
+    nav ul li {
+        padding: 0px 20px;
+        text-transform: capitalize;
+        font-family: 'Epilogue', sans-serif;
+        font-size: 16px;
+        color: hsl(0, 0%, 41%);
+        display: none;
+    }
+    
+    .arrow {
+        padding-left: 2px;
+    }
+    
+    .register {
+        width: 8%;
+        flex-direction: row;
+        display: none;
+    }
+    
+    .login-text {
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: 'Epilogue', sans-serif;
+        color: hsl(0, 0%, 41%);
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-right: 40px;
+    }
+    
+    .button {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 14px;
+        border-radius: 15px;
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(0, 0%, 41%);
+        border-width: 2px;
+        border-color: hsl(0, 0%, 41%);
+        border-style: solid;
+        padding: 0px 20px;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .main-text {
+        margin: 30px 0px;
+        height: auto;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .work {
+        font-size: 2em;
+        font-weight: 700;
+        color: hsl(0, 0%, 8%);
+        font-family: 'Epilogue', sans-serif;
+    }
+    
+    .break {
+        font-weight: 700;
+    }
+    
+    .text {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 16px;
+        color: hsl(0, 0%, 41%);
+        margin-top: 30px;
+        text-align: center;
+        padding: 0px 10px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+
+    .hero-image {
+        width: auto;
+        height: auto;
+    }
+    
+    .hero-mobile {
+        display: block;
+        width: 375px;
+        height: 282px;
+        margin: 0px;
+    }
+
+    .hero-desktop {
+        display: none;
+    }
+    
+    .learn-more {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 14px;
+        border-radius: 10px;
+        color: hsl(0, 0%, 98%);
+        background-color: hsl(0, 0%, 8%);
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+    
+    .client-logos {
+        width: 100%;
+        height: auto;
+        margin-left:-19px;
+        margin-bottom: 50px;
+    }
+    
+    .client-logos ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .comp {
+        width: 90%;
+    }
+    
+    .client-logos ul li {
+        padding: 0px 5px;
+    }
+}
